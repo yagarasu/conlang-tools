@@ -1,0 +1,26 @@
+// comment
+
+V = [ a, e, i, o, u ]
+C = [ p, t, c, q, b, d, g, m, n, l, r, h, s ]
+F = [ i, e ]
+B = [ o, u ]
+S = [ p, t, k ]
+Z = [ b, d, g ]
+E = [ F, B ]
+G = [ a,e, i, B ]
+
+
+// F > B / _#
+
+s > ZERO / _# <final s goes away>
+m > ZERO / _# <final m goes away>
+e > ZERO / Vr_# <e goes away afer r>
+v > ZERO / V_V <v goes away between vowels>
+u > o / _# <u turns o at the end>
+gn > nh / _ <g to n, n to h>
+S > Z / V_V <voicing between vowels>
+c > i / F_t <c to i after front vowels>
+c >  u / B_t <c to u after back bowels>
+p > ZERO / V_t <p goes away>
+ii > i / _ <i simplification>
+e > ZERO / C_rV <e goes awat if rV>
